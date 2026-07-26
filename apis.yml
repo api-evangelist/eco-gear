@@ -1,7 +1,24 @@
 aid: eco-gear
 name: Eco Gear
-description: Eco Gear is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Eco Gear (에코기어) is a South Korean food-technology company that develops natural
+  biomaterial-based nano-coating preservation agents which extend the freshness of fresh produce
+  and reduce food waste across the cold chain. Its product line — Flowting for cut flowers, Ecocell
+  for stevia tomatoes, and Fruiting for citrus — forms an invisible, food-safe protective layer that
+  slows moisture loss, browning, and mold without synthetic waxes or harmful emulsifiers, with field
+  trials showing spoilage reduced by up to 71%. The company markets a physical-products and R&D
+  business and does not currently publish a public developer API. Backed by 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/u4JO7YIOiUC5EJ7PglfeqKMlQ.png
 url: https://raw.githubusercontent.com/api-evangelist/eco-gear/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Technology
+- AgriTech
+- Freshness Preservation
+- Nano Coating
+- Biomaterials
+- Cold Chain
+- Food Waste Reduction
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eco-gear-domain-security.yml
 - type: Website
   url: https://ecogear.co.kr
+- type: Blog
+  url: https://ecogear.co.kr/news
+- type: Support
+  url: https://ecogear.co.kr/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

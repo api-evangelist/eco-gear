@@ -1,0 +1,14 @@
+{
+  "repo": "eco-gear",
+  "feeds": [
+    {
+      "source": "https://ecogear.co.kr",
+      "feed_url": "https://ecogear.co.kr",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
