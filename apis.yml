@@ -7,6 +7,17 @@ description: Eco Gear (에코기어) is a South Korean food-technology company t
   slows moisture loss, browning, and mold without synthetic waxes or harmful emulsifiers, with field
   trials showing spoilage reduced by up to 71%. The company markets a physical-products and R&D
   business and does not currently publish a public developer API. Backed by 500 Global.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
